@@ -1,0 +1,20 @@
+services:
+  app:
+    container_name: app
+    build: ./
+    depends_on:
+      - pg_db
+    volumes:
+      - ./app:/bitTestTask/app
+    ports:
+    - "8000:8000"
+
+  pg_db:
+    container_name: postgres
+    image: postgres:16
+    environment:
+      POSTGRES_DB: "library"
+      POSTGRES_USER: "library_user"
+      POSTGRES_PASSWORD: "library_password"
+    ports:
+      - "5433:5432"

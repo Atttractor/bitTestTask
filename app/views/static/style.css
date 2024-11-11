@@ -1,0 +1,59 @@
+#start-btns {
+    text-align: center;
+    margin-top: calc(50vh - 200px);
+}
+#get-return-btns {
+    text-align: center;
+    margin-top: calc(50vh - 240px);
+}
+.start-btn {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 26px;
+    min-width: 62px;
+    padding: 0;
+    margin-top: 0;
+}
+#back {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+}
+#reports {
+    flex-direction: column;
+}
+#reports button {
+    height: 100px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 500px;
+    margin-left: calc(50vw - 250px);
+}
+.crud-btn {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+#crud-btns {
+    margin-top: calc(50vh - 350px);
+    margin-left: calc(50vw - 400px);
+    text-align: center;
+    grid-template-columns: repeat(3, 250px);
+}
+#form-div  {
+    flex-direction: column;
+}
+#form-div form {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(50vh - 200px);
+    margin-left: calc(50vw - 200px);
+}
+#form-div p {
+    margin: 0;
+    padding: 0;
+}
